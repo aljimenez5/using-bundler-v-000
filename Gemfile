@@ -3,6 +3,7 @@ source "https://rubygems.org" do
   gem "sinatra", "1.4.4"
   gem "hashie"
   gem "octokit" ~> "2.0"
+end
  
 group :development do
   gem "pry"
