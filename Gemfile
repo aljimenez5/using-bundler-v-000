@@ -6,6 +6,6 @@ source "https://rubygems.org" do
   gem "awesome_print", :git => "https://github.com/awesome-print/awesome_print"
 end
  
-gem "pry" group :development do
+gem "pry", :group => :development do
   gem "pry"
 end
