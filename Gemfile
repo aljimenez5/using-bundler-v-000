@@ -7,4 +7,6 @@ source "https://rubygems.org" do
 end
  
 gem "pry", :group => :development
-group :test
+group :test do
+  gem "rspec"
+end
